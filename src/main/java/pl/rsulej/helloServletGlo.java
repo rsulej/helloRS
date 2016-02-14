@@ -11,7 +11,7 @@ package pl.rsulej;
 public class helloServletGlo extends GenericServlet {
     @Override
     public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
-        res.getWriter().println("helloServletGlo RS!!<a href='./hello'>hello<");
+        res.getWriter().println("helloServletGlo RS!!<a href='./hello'>hello</a>");
         res.getWriter().println("2. helloServletGlo RS!!");
     }
 }
